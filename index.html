@@ -19,7 +19,7 @@
                 <img src="img/user.svg" alt="" class="button-icon">
                 <span class="button-text">Увійти</span>
             </button>
-            <button class="button">
+            <button class="button" id="card-button">
                 <img src="img/shopping-cart.svg" alt="" class="button-icon">
                 <span class="button-text">Корзина</span>
             </button>
@@ -176,5 +176,33 @@
            </div>
        </div>
    </footer>
+   <div class="modal">
+    <div class="modal-dialog">
+        <div class="modal-header">
+            <h3 class="modal-title">Корзина</h3>
+            <button class="close">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="food-row">
+                <span class="food-name">Покащо нічого</span>
+                <!-- /<strong class="food-price">250 грн</strong>
+                <div class="food-counter">
+                 <button class="counter-button">-</button>
+                 <span class="counter">1</span>
+                 <button class="counter-button">+</button>
+                </div>-->
+            </div>
+        </div>
+        <div class="modal-footer">
+            <span class="modal-priceteg">000 грн</span>
+            <div class="footer-buttons">
+             <button class="button button-primary">Оформити замовлення</button>
+             <button class="button">Відміна</button>
+            </div>
+        </div>
+    </div> 
+    </div>
+    <!-- /.modal-dialog -->
+   <script src="main.js"></script>
 </body>
 </html>
